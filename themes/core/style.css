@@ -1,0 +1,250 @@
+/** 
+ * My own style, based on HTML5Boilerplate standard style.
+ */
+@import url(../css/style.css);
+@import url(http://fonts.googleapis.com/css?family=Shojumaru);
+
+/**
+ * Structure
+ */
+html {
+  
+  overflow-y:scroll;
+  background-color: #959595;
+}
+
+body   {
+  font-family:'Roboto Condensed', Georgia, serif;    
+  background-color:#fff;
+  color:#333;
+  background-color: #959595;
+  }
+
+#above   {
+  text-transform: uppercase;
+  width:979px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:-15px;
+  padding-left:1em;
+  padding-right:1em;
+  color:#000;
+  font-size:0.7em;
+  background-color: #999;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height:30px;
+  border:2px solid #999;
+  padding-top:0.5em;
+  }
+
+  
+.report  { background-color:#B3BFF8;
+  padding:20px;
+}  
+
+
+
+#header,
+#main,
+#footer {
+  margin-top:-30px;
+  margin:8px auto;
+  padding:1em;
+  width:970px;
+  background-color:#FFFFFF;
+  border:2px solid #999;
+  border-radius: 5px;
+} 
+
+.footerlinks  {text-transform: uppercase;
+    }
+
+#main {
+  min-height:20em;
+}
+
+#footer {
+  font-size:0.9em;
+}
+
+#footer,
+#footer a {color:#666;}
+#footer a:hover {color:#333; text-decoration:none;}
+
+
+#banner {
+  display:table;
+  margin-bottom:10px;
+}
+
+.site-logo,
+.site-title,
+.site-slogan {
+  display:table-cell;
+  width:inherit;
+  vertical-align:middle;
+  text-align:left;
+}
+
+.site-logo {}
+.site-title {
+  font-family: 'Shojumaru', cursive;
+  line-height:0;
+  font-size:3em;
+  padding-left:20px;
+  color:#333;
+  text-shadow:#ccc 4px -4px 4px;
+}
+.site-slogan {
+  font-family: 'Shojumaru', cursive;
+  padding-left:20px;
+  font-style:italic;
+}
+
+
+/**
+ * Navbar
+ */
+#navbar {
+  font-family: arial;
+  font-weight: bold;
+  padding: 2px 8px;
+  background:#666;
+  border:2px solid #999;
+}
+#navbar a {padding:6px 8px;text-decoration:none;border:2px solid transparent;color:#fff;}
+#navbar a:hover,
+#navbar a.selected
+{background:#999;border:2px solid #666;}
+
+
+/**
+ * Fonts
+ */
+h1{text-transform:uppercase;}
+h2{
+  border-bottom:1px solid #68474c;
+} 
+
+
+/**
+ * Links
+ */
+a,
+a:visited {
+  color:#A84C00;
+}
+
+
+/**
+ * Figure and images
+ */
+figure {
+  display: table;
+  width:1px;
+  border: 2px dotted #eee;
+  margin:1em;
+  padding:2px;
+}
+
+img, figcaption {
+  display: table-row;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+a figcaption,
+figcaption {
+  font-style:italic;
+  font-size:smaller;
+  color:#666;
+}
+
+figure.right{margin-right:0;}
+figure.top{margin-top:0;}
+figure.fullwidth{margin-left:0;margin-right:0;}
+
+a:hover img {
+border:5px solid #808080;
+}
+
+
+/**
+ * byline & signature
+ */
+.byline {
+  clear: both;
+  border-top: 1px dashed #999;
+  margin-top:2em;
+  padding-left: 10em;
+  padding-right:10em;
+  color: #666;
+  font-size: smaller;
+  font-style:italic;
+}
+
+.byline_figure {float: right;
+    border:none;
+
+}
+
+.byline_img {height:120px;
+  margin-top:-10px;
+
+       }
+.home_img  {  height="240"
+border-radius:10px;
+border: 5px solid #999;
+height:250px;
+}
+
+
+.home_figure  {float:right;
+  
+border:none;
+margin-top:2px;} 
+
+
+
+/**
+* Forms
+*/
+input{font:inherit;}
+input[readonly]{color:#666;}
+label{font-size:smaller;}
+
+/**
+* Login menu
+*/
+#login-menu{float:right;}
+#login-menu img.gravatar{vertical-align:middle;}
+#login-menu a{text-decoration:none;}
+#login-menu a:hover{text-decoration:underline;}
+
+
+
+/**
+* User feedback message wrappers.
+*/
+.error, .alert, .warning, .notice, .success, .info {
+padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; border-radius: 10px;}
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4;}
+.notice, .warning { background: #fff6bf; color: #514721; border-color: #ffd324;}
+.success { background: #e6efc2; color: #264409; border-color: #c6d880;}
+.info { background: #d5edf8; color: #205791; border-color: #92cae4;}
+.error a, .alert a { color: #8a1f11;}
+.notice a, .warning a { color: #514721;}
+.success a { color: #264409; }
+.info a { color: #205791; }
+.fieldset {background:lightgrey; border-radius: 10px;}
+
+.validation-failed{border:2px solid red;}
+.validation-message{color:red;font-size:smaller;}
+
+
+/**
+* Misc classes
+*/
+.right {float:right;}
